@@ -41,8 +41,8 @@ console.log(person4);
 function makePerson(name, age) {
   //property의 key 와 value의 이름이 같으면 하나 생략 가능
   return {
-    name,
-    age,
+    name, // == name: name,
+    age, // == age: age,
   };
 }
 
